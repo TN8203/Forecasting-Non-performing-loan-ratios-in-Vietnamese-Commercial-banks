@@ -1,0 +1,72 @@
+{
+    "random_forest": {
+        "best_params": {
+            "n_estimators": 54,
+            "max_depth": 23,
+            "min_samples_split": 7,
+            "min_samples_leaf": 2,
+            "max_features": null
+        },
+        "best_rmse": 0.005645486990365983
+    },
+    "xgboost": {
+        "best_params": {
+            "max_depth": 8,
+            "learning_rate": 0.20538651317129006,
+            "n_estimators": 460,
+            "min_child_weight": 163,
+            "gamma": 0.012132575371000843,
+            "subsample": 0.7413558951284349,
+            "colsample_bytree": 0.9705657131926211,
+            "reg_alpha": 0.0008039225467028899,
+            "reg_lambda": 0.5568749412918299
+        },
+        "best_rmse": 0.010472760000858027
+    },
+    "lightgbm": {
+        "best_params": {
+            "n_estimators": 351,
+            "learning_rate": 0.0326925825975332,
+            "num_leaves": 138,
+            "max_depth": 11,
+            "min_child_samples": 36,
+            "subsample": 0.8278514436910847,
+            "colsample_bytree": 0.7225108757865041,
+            "reg_alpha": 0.11948145291373141,
+            "reg_lambda": 0.07175591675101581
+        },
+        "best_rmse": 0.005719376245423852
+    },
+    "gradient_boosting": {
+        "best_params": {
+            "learning_rate": 0.06465486891722177,
+            "n_estimators": 345,
+            "max_depth": 3,
+            "min_samples_split": 5,
+            "min_samples_leaf": 3,
+            "subsample": 0.7408273883255743,
+            "max_features": "sqrt"
+        },
+        "best_rmse": 0.004490206553882478
+    },
+    "decision_tree": {
+        "best_params": {
+            "max_depth": 9,
+            "min_samples_split": 7,
+            "min_samples_leaf": 2
+        },
+        "best_rmse": 0.006604759456391544
+    },
+    "svm": {
+        "best_params": {
+            "C": 77.76987481705083,
+            "epsilon": 0.010357671257802938,
+            "kernel": "rbf"
+        },
+        "best_rmse": 0.012366119768868158
+    },
+    "linear_regression": {
+        "best_params": {},
+        "best_rmse": 0.00014350158006822442
+    }
+}
